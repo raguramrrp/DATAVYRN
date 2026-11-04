@@ -797,7 +797,7 @@ Coded Parsing Strategy:
 <span class="code-keyword">from</span> typing <span class="code-keyword">import</span> Generator, Dict, Any
 
 <span class="code-keyword">def</span> <span class="code-func">stream_sft_dataset</span>(filepath: str) -> Generator[Dict[str, Any], <span class="code-keyword">None</span>, <span class="code-keyword">None</span>]:
-    <span class="code-str">"""Streams large multi-gigabyte JSONL records with O(1) memory footprint."""</span>
+    <span class="code-str">\"\"\"Streams large multi-gigabyte JSONL records with O(1) memory footprint.\"\"\"</span>
     <span class="code-keyword">with</span> open(filepath, <span class="code-str">"r"</span>, encoding=<span class="code-str">"utf-8"</span>) <span class="code-keyword">as</span> f:
         <span class="code-keyword">for</span> line <span class="code-keyword">in</span> f:
             line = line.strip()
