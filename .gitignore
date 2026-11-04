@@ -1,0 +1,92 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment Variables
+.env
+.env.local
+
+# Pytest / Unit test / Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+htmlcov/
+
+# Local Database & SQLite lock files
+storage/database/*.db
+storage/database/*.db-journal
+storage/database/*.db-wal
+storage/database/*.db-shm
+
+# Generated Artifacts, Models & Reports (keep directory placeholders)
+storage/exports/*
+!storage/exports/.gitkeep
+storage/reports/*
+!storage/reports/.gitkeep
+storage/models/*
+!storage/models/.gitkeep
+storage/datasets/*
+!storage/datasets/.gitkeep
+storage/images/*
+!storage/images/.gitkeep
+storage/annotations/*
+!storage/annotations/.gitkeep
+
+# Operating System & IDE Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# Temporary and log files
+*.log
+*.tmp
+tempmediaStorage/
